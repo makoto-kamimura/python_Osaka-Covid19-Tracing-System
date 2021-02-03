@@ -1,0 +1,1 @@
+# osaka_covid19_tracing_system
