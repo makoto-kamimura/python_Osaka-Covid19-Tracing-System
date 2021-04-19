@@ -19,3 +19,5 @@ http://www.pref.osaka.lg.jp/smart_somu/osaka_covid19/index.html
 ###参考サイトについて###
 
 https://qiita.com/memakura/items/20a02161fa7e18d8a693
+
+https://yuki.world/python-selenium-chromedriver-auto-update/
