@@ -61,10 +61,10 @@
 
 # Note
 * 大阪府／大阪コロナ追跡システムについて
-    http://www.pref.osaka.lg.jp/smart_somu/osaka_covid19/index.html
-* 参考サイト様
-    https://qiita.com/memakura/items/20a02161fa7e18d8a693
-    https://yuki.world/python-selenium-chromedriver-auto-update/
+    * http://www.pref.osaka.lg.jp/smart_somu/osaka_covid19/index.html
+* 参考サイト様  
+    * https://qiita.com/memakura/items/20a02161fa7e18d8a693
+    * https://yuki.world/python-selenium-chromedriver-auto-update/
 
 # License
 "Python_Osaka-Covid19-Tracing-System" is Confidential.
