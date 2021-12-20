@@ -16,13 +16,14 @@
         * Chrome Webdriver
 
 # Installation
+## Windows_CommandPrompt
 0. 事前準備
     1. git clone https://github.com/makoto-kamimura/Python_Osaka-Covid19-Tracing-System.git
 1. 事前準備_REGISTRATION
     1. 利用する施設に配置されているQRコードを読み取る
     2. QRコードにより取得をしたWEBサイトのURLをコピー
     3. 対象のソースコードに "2." で取得をした情報等を記述
-        1. "0-1" で取得したリポジトリにおける対象ファイル"Python_Osaka-Covid19-Tracing-System_Registration.py"をテキストエディッタ等で開く
+        1. "0-1" で取得したリポジトリにおける対象ファイル"CommandPrompt/Python_Osaka-Covid19-Tracing-System_Registration.py"をテキストエディッタ等で開く
         2. 対象ソースコードにおける"施設情報"を以下のように変更/入力  
         * Before
             ```python
@@ -50,14 +51,25 @@
     1. 利用後に送信されてきたメールに記載されている"大阪マイルを取得する"を押下
     2. 表示されているWEBサイトのURLをコピー
     3. 対象のソースコードに "2." で取得をした情報等を記述
-        1. "0-i" で取得したリポジトリにおける対象ファイル"Python_Osaka-Covid19-Tracing-System_OsakaMile.py"をテキストエディッタ等で開く
+        1. "0-i" で取得したリポジトリにおける対象ファイル"CommandPrompt/Python_Osaka-Covid19-Tracing-System_OsakaMile.py"をテキストエディッタ等で開く
         2. 対象ソースコードにおける"施設情報"を以下のように変更/入力
         ```python
         ※後程更新予定
         ```
         4. 対象のファイルを保存
 3. 利用方法
-    1. ターミナルにて対象ファイル"Python_Osaka-Covid19-Tracing-System_Registration.bat" を実行
+    1. コマンドプロンプトにて対象ファイル"CommandPrompt/Python_Osaka-Covid19-Tracing-System_Registration.bat" を実行
+
+## Docker
+```bash
+git clone https://github.com/makoto-kamimura/Python_Osaka-Covid19-Tracing-System.git
+cd Docker/
+docker-compose up -d --build
+docker-compose exec Python3_osaka_covid19 bash
+bash source/Python_Osaka-Covid19-Tracing-System.sh
+exit
+docker-compose down -v
+```
 
 # Note
 * 大阪府／大阪コロナ追跡システムについて
