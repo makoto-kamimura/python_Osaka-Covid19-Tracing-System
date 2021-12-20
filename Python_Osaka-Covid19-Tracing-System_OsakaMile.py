@@ -1,8 +1,12 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 
 # WebDriverを取得
-driver = webdriver.Chrome("./driver/chromedriver.exe")
+# driver = webdriver.Chrome("./driver/chromedriver.exe")
+
+# WebDriverの最新版を取得
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #######################################################################
 # この枠内の値のみを変更して下さい！
