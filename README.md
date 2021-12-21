@@ -60,7 +60,7 @@
 3. 利用方法
     1. コマンドプロンプトにて対象ファイル"CommandPrompt/Python_Osaka-Covid19-Tracing-System_Registration.bat" を実行
 
-## Docker
+## Docker_[準備中]
 ```bash
 git clone https://github.com/makoto-kamimura/Python_Osaka-Covid19-Tracing-System.git
 cd Docker/
