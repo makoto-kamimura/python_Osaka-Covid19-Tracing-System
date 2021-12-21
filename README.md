@@ -65,7 +65,7 @@
 git clone https://github.com/makoto-kamimura/Python_Osaka-Covid19-Tracing-System.git
 cd Docker/
 docker-compose up -d --build
-docker-compose exec Python3_osaka_covid19 bash
+docker-compose exec python3 bash
 bash source/Python_Osaka-Covid19-Tracing-System.sh
 exit
 docker-compose down -v
