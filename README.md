@@ -1,6 +1,5 @@
 # Python_Osaka-Covid19-Tracing-System
-当ツールは  
-大阪府が運営/開発をしている"大阪コロナ追跡システム"のサードパーティーツールです。  
+当ツールは、大阪府が運営/開発をしている"大阪コロナ追跡システム"のサードパーティーツールです。  
 下記プロセスにより、利用施設の登録及び大阪マイル取得をワンクリックで可能とするツールとなります。  
 ※1 利用施設がある程度決まっており、その都度のQR読込作業の簡略化を目的として制作しております。  
 ※2 "※1" の目的に沿わないご利用や、その他のご利用における責任等は一切負いかねますので、予めご了承下さい。
@@ -9,7 +8,7 @@
 ![Python_Osaka-Covid19-Tracing-System](/README_img/Python_Osaka-Covid19-Tracing-System.gif)
 
 # Requirement
-※後程バージョン等記載予定
+※バージョン等後程記載を予定
 * Windows10
     * Python
         * Selenium
@@ -74,9 +73,11 @@ docker-compose down -v
 # Note
 * 大阪府／大阪コロナ追跡システムについて
     * http://www.pref.osaka.lg.jp/smart_somu/osaka_covid19/index.html
-* 参考サイト様  
+* リスク通知システム
+    * https://github.com/cfm-system-team/hazard_alert
+* 参考情報  
     * https://qiita.com/memakura/items/20a02161fa7e18d8a693
     * https://yuki.world/python-selenium-chromedriver-auto-update/
 
 # License
-"Python_Osaka-Covid19-Tracing-System" is Confidential.
+This system is MIT licensed.
